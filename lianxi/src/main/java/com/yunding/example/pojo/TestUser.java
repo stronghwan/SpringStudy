@@ -35,6 +35,7 @@ public class TestUser {
         System.out.println("提交项目pull的测试");
         System.out.println("ehrfwkefhalffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         System.out.println("-----------------------");
+        System.out.println("这是我发给你的文件，哈哈哈哈哈，能接收到吗？？");
         // 使用spring的set方法注入属性
         System.out.println(user.getUserName());
     }
