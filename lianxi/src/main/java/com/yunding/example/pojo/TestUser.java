@@ -32,6 +32,7 @@ public class TestUser {
                 new ClassPathXmlApplicationContext("bean.xml");
         User user = (User) context.getBean("user");
         user.test();
+        System.out.println("提交项目pull的测试");
         System.out.println("-----------------------");
         // 使用spring的set方法注入属性
         System.out.println(user.getUserName());
