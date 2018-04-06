@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <bean id="user" class="com.yunding.example.pojo.User" scope="prototype" >
+                <constructor-arg name="userName" value="小王小李"></constructor-arg>
+                <property name="userName" value="改变小王小李的值"></property>
+                <property name="service" ref="4"></property>
+        </bean>
+        <bean id="4" class="com.yunding.example.pojo.Service">
+
+        </bean>
+
+</beans>
